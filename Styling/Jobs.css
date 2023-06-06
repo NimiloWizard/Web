@@ -1,0 +1,23 @@
+
+
+    body {font-family: "Roboto", sans-serif}
+    .w3-bar-block .w3-bar-item {
+      padding: 16px;
+      font-weight: bold;
+      background-color: gray;
+    }
+
+
+  .page-container{
+    width: 100%;
+    max-width: 1500px;
+    background: url('images/Aform1.jpg') no-repeat center center fixed;
+    opacity: 80%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    overflow-y: scroll;
+}
+ 

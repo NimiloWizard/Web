@@ -1,0 +1,212 @@
+
+
+ body  {
+      padding-top: 100px;
+      padding-right: 1px;
+       
+    }
+
+
+ h4,h5 {
+
+	padding-left: 20px;
+	
+}
+
+.page-container{
+    right: 0px;
+    width: 100%;
+    max-width: 1500px;
+    background: url("../images/Aform1.jpg") no-repeat center fixed;
+	opacity: 80%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    overflow-y: scroll;
+}
+
+.page-container-jobshtml {
+    right: 0px;
+    width: 100%;
+    max-width: 1500px;
+    background: url("../images/Aform1.jpg") no-repeat center center fixed;
+    opacity: 80%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    overflow-y: scroll;
+}
+ 
+ .heading {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 10;
+
+ }
+.header span{
+
+ font-weight: 700;
+
+}
+
+ /*  Job title section */
+
+.section .description .jobtitle h4{
+	
+   	font-weight: 600px;
+}
+
+.section .job-details{
+
+    position: static;
+     
+}
+
+.graphics h4{
+
+    
+	font-weight: 600px;
+}
+
+
+/*  Qualifications  */
+
+  .list list-style-type{
+
+	 list-style-type: circle;
+
+}
+
+.sectionx .w3-container .description .qualification h5{
+    color: orangered;
+}
+
+ .list  ul{
+
+ 	margin-left: 20px;
+ }
+
+  .card{
+       display: flex;
+       position: relative;
+ }
+ .VisitUs .w3-container .card .image1, .image2{
+     position: absolute;
+ }
+ /*  Duties and Responsibility Section */
+
+.responsibilty-list list-style-type{
+   list-style-type: circle;
+}
+
+.responsibilty-list ul{
+
+	margin-left: 20px;
+}
+
+/*  Benefits */
+
+.Compben-list ul{
+	margin-left: 20px;
+}
+
+.Compben-list list-style-type{
+
+	list-style-type: circle;
+}
+
+.VisitUs .w3-container .card {
+    display: flex;
+    position: relative;
+}
+.VisitUs .w3-container .cards .image1, .image2{
+    position: absolute;
+}
+.VisitUs .w3-container .card .image2{
+    top: 50px;
+    left: 600px;
+}
+
+/*-- Media Query --*/
+
+@media screen and (max-width: 1920px){
+
+}
+
+@media screen and (max-width: 1804px){
+
+}
+
+@media screen and (max-width: 1104px){
+
+}
+
+@media screen and (max-width: 991px){
+    .page-container .max-width{
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 947px){
+    body{
+        background-color: blue;
+    }
+    .max-width{
+        max-width: auto;
+    } 
+    .jobtitle h3, h5{
+        padding-right: 0px;
+    }
+
+    .VisitUs .w3-container{
+        padding-left: 0px;
+    }
+    .w3-container  .SocialHeader, .list  {
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 690px){
+    body{
+        background-color:green;
+    }
+   .max-width{
+       max-width: auto;
+   }
+
+   .jobtitle h3, h5{
+       padding-right: 0px;
+   }
+   .w3-container  .SocialHeader, .list  {
+    padding-left: 10px;
+  }
+  .job-details .jobtitle{
+      margin-right: 5px;
+      margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgb(228, 228, 250);
+    }
+    
+    .jobtitle h3, h5{
+        padding-right: 0px;
+    }
+
+    .VisitUs .w3-container{
+        padding-left: 0px;
+    }
+    .w3-container  .SocialHeader, .list  {
+        padding-left: 10px;
+    }
+
+}

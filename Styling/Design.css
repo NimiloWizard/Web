@@ -1,0 +1,1275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+.max-width{
+	max-width: 1300px;
+	padding: 0px 0px ;
+	margin: auto;
+}
+
+/*Styles for Navigation Bar Section*/
+.navbar {
+    
+	position: fixed;
+	width: 100%;
+	padding: 10px 0px;
+	font-family: 'Montserrat', sans-serif;
+	background: black;
+    z-index: 1;
+    background: url("../Images/about_summary.jpg") no-repeat center;
+
+    box-shadow:-10px 30px  10px black;
+    border-left: 5px solid black;
+}
+
+.navbar.sticky{
+
+	padding: 8px 60px;
+	box-shadow:-10px 10px  10px black;
+	background-color: blue;
+	
+}
+
+.menu-button{
+	cursor: pointer;
+}
+
+
+.navbar .max-width {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+
+}
+.navbar .logo a:hover{
+    color: red;   
+}      
+.navbar .logo a span:hover{
+    color: green;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a{
+	display: block;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+   margin-left: 15px ;
+   transition: all .55s ease;
+    
+}
+.navbar .menu li a:hover{
+    color: red;     
+ }
+
+
+/*Styles for Home Section*/
+.home{
+	display: flex;
+	background: url("../Images/MyHomepage.jpg")no-repeat center ;
+	
+	color: red;
+	min-height: 500px;
+	max-height: 750px;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+    border-left: 10px solid gray;
+
+	
+}
+.home .max-width{
+	margin: auto 0 auto 80px;
+
+}
+.home .home-content .Text1{
+	padding-left: 60px ;
+	font-size: 30px;
+}
+.home .home-content .Text2{
+	padding-left: 60px ;
+	font-size: 50px;
+	font-weight: 700;
+	margin: -3px;
+
+}
+.home .home-content .Text3{
+	padding-left: 60px ;
+	font-size: 30px;
+}
+.home .home-content a{
+	display: inline-block;
+	background: red;
+	color: white;
+	font-size: 25px;
+	padding: 12px 35px;
+	margin-left: 60px;
+	margin-top: 30px;
+	border-radius: 10px;
+	transition: all 0.5s linear;
+}
+.home .home-content a:hover{
+	color: floralwhite;
+	background: blue;
+
+}
+
+/*Styles for About Section*/
+section {
+    
+	padding: 20px;
+    display: flex;
+	/*background: linear-gradient(rgba(250, 252, 252, 0.986), rgba(253, 252, 252, 0.3));  */
+	background: url("../images/background.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-right: 2px solid darkgray;
+	font-family: 'Montserrat', sans-serif;
+	border-left: 10px solid gray;
+	border-radius: 10px;
+	isolation: isolate;
+	
+}
+
+
+
+section .title {
+	
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: -10px 10px 10px black;
+	border: solid lightgray;
+	margin-bottom: 30px;
+	font-weight: 800px;
+	margin-top: 60px;
+	margin-left: 5px;
+	box-shadow:-20px 20px  10px gray
+   
+}
+
+.about{
+	
+	font-family: 'Montserrat', sans-serif;
+	border-right: solid lightgray;
+	border-left: 10px solid darkgray;
+	border-radius: 10px;
+    height: 200px;
+    
+ } 
+.aboutus{
+	padding: 0px;
+}
+ .about .title {
+	  height: 70px;
+	  align-content: center;
+	  align-items: center;
+      
+ }
+
+ .about-content{
+	margin: 20px 0;
+	text-align: center;
+	align-items: center;
+	justify-content:center;
+	width:  1300px;
+
+}
+
+ .row{
+ 	display: flex;
+ 	justify-content: space-between;
+	gap: 2rem;
+	margin: 30px 0;
+	
+ }
+
+ .slides-about{
+	 position: relative;
+	 flex-basis: 40%;
+ }
+
+ 
+  .about-info p{
+   font-size: 18px;
+   position: relative;
+   flex-basis: 60%;
+  
+   }
+
+   .about-info .about-drop{
+	flex-basis: 60%;
+	transition: all .40s ease; 
+
+	}
+	.about-info .about-drop1{
+	  color: blue;
+	}
+  
+	.about-info ul{
+		padding-left: 30px;
+	}
+
+
+/*------------------------- Trainings Section--------------------  */
+
+.Trainings{          
+	              /* Includes adding background image  */
+	color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	border-left: 10px solid gray;
+	border-right: 3px solid lightgray;
+	border-radius: 8px; 
+}
+.Trainings  .title{
+	text-align: center;
+	width: 1300px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.Trainings-content{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.Trainings .Trainings-content .card{
+	
+	width: calc(33% - 30px);
+	background: linear-gradient(245.59deg, #f1f1ee 0%, #7c7c7a 28.53%, #2b2b2a 75.52%);
+	text-align: center;
+	border-radius: 10px;
+	padding: 20px 25px ;
+	border:  double lavender;
+	height: 300px;
+    box-shadow:-20px 20px  10px gray;
+	margin-bottom: 50px;
+	
+}
+
+.Trainings .Trainings-content .card:hover .course{
+    background: linear-gradient(245.59deg, #f1dfad 0%, #f1e647 28.53%, #f1aa0f 75.52%);
+	color: blue;
+	cursor: pointer;
+	height: 100%;
+		
+}
+.course{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+	transition: .5s ease;
+	padding-top: 60px;
+}
+ 
+ 
+ .Trainings .Trainings-content .card .db{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+
+ }
+ .Trainings .card .card6{
+	 width: 200px;
+ }
+ .Trainings .Caption{
+	 font-weight: bold;
+	 font-size: 20px;
+	 padding-top: 30x;
+	 padding-bottom: 25px;
+ }
+ .Trainings  a{
+    display: inline-block;
+    color: white;
+    background: linear-gradient(245.59deg, #f1dfad 0%, #f1e647 28.53%, #f1aa0f 75.52%);
+    border: 1px solid transparent;
+    padding: 15px 25px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    margin: 5px; 
+}
+
+.Trainings  a:hover {
+	background: transparent;
+	border: 1px solid white;
+	transform: translateX(8px);
+ }
+ 
+ .button1{
+	 position: absolute;
+	 padding-top: 10px;
+	 top: 0px;
+	 left: 280px;
+	 z-index: 5; 
+	 height: 40px;
+	 width: 40px;
+ }
+ 
+ .Db_img {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 height: 296px;
+	 width: 100%;
+	 opacity: 1.0;
+	 border-radius: 10px;
+	 transition: .7s ease;
+ }
+
+ .Trainings-content .card:hover .Db_img {
+	 opacity: 0;
+	 
+ }
+ 
+.Trainings .Trainings-content .star_icon{
+	 
+	 align-items: center;
+	 align-content: center;
+	 z-index: -5;
+	 top: 160px;
+	 gap: 15px;
+	 
+}
+
+.Trainings .Trainings-content .star_icon i{
+	 height: 150px;
+	 width: 15px;
+	 color: rgb(204, 144, 13);
+	 padding-top: 50px;
+	 
+} 
+
+/*----------- Styles for Deployment Section-----------*/
+
+.deployment{
+	display: flex;
+	color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	border-left: 10px solid gray;
+	border-right: 3px solid lightgray;
+	border-radius: 8px; 
+}
+.deployment .title h2{
+	text-align: center;
+}
+
+.deployment .deployment-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 30px;
+
+}
+.deployment .deployment-content .column{
+	width: calc(50% - 10px);
+}
+.deployment .deployment-content .left{
+   height: 350px;
+   border: solid lightgray;
+   border-radius: 10px;
+   padding: 20px 20px;
+   margin-right: -5px;
+   box-shadow:-20px 20px  10px grey;
+}
+.deployment .deployment-content .left .text{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 2px;
+	color: red;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+.deployment .deployment-content .left .text{
+	display: none;
+	 
+}
+
+.deployment .deployment-content .left .text p{
+	text-align: justify;
+	font-size: 18px;
+}
+
+.deployment .deployment-content .left a{
+	display: inline-block;
+	background: red;
+	color: white;
+	font-size: 20px;
+	padding: 12px 10px;
+	margin-left: 2px;
+	margin-top: 30px;
+	border-radius: 10px;
+	transition: all 0.5s linear;
+
+}
+.deployment .deployment-content .left  a:hover{
+	background: blue;
+    color: white;
+	font-size: 20px;
+	
+		
+}
+.deployment .deployment-content .right{
+   height: 350px;
+   border-radius: 10px;
+   border: solid lightgray;
+   border-radius: 10px;
+   padding: 15px 20px;
+   box-shadow:-20px 20px  10px gray;
+   margin-left: -5px;
+}
+.deployment .deployment-content .right .bar{
+	margin-bottom: 15px;
+
+	
+}
+
+.deployment .deployment-content .right .info1, .info2, .info3, .info4{
+	display: flex;
+	margin-bottom: 5px;
+	align-items: center;
+	justify-content:space-between;
+	padding: 3px
+  
+}
+.deployment .deployment-content .right .info1:hover{
+	color: blue;
+	cursor: pointer;
+}
+.deployment .deployment-content .right .info2:hover{
+	color: blue;
+	cursor: pointer;
+}
+.deployment .deployment-content .right .info3:hover{
+	color: blue;
+	cursor: pointer;
+}
+.deployment .deployment-content .right .info4:hover{
+	color: blue;
+	cursor: pointer;
+}
+.deployment .deployment-content .right span{
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px;
+}
+.deployment .deployment-content  .per1, .per2, .per3, .per4{
+    font-weight: 600;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.deployment .deployment-content .right .line{
+	height: 5px;
+	width: 100%;
+	background-color: lightgray;
+	position: relative;
+
+}
+
+.deployment .deployment-content .right .line::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	left: 0;
+	right: 0;
+	background: rgb(190, 17, 5);
+
+
+}
+
+
+.deployment-content .right .full::before{
+	width: 80%;
+
+}
+.deployment-content .right .software::before{
+	width: 85%;
+
+}
+.deployment-content .right .front::before{
+	width: 90%;
+
+}
+.deployment-content .right .back::before{
+	width: 80%;
+
+}
+
+.deployment-content .right .full {
+   display: none;
+
+}
+.deployment-content .right .software{
+   display: none;
+}
+.deployment-content .right .front{
+   display: none;
+}
+.deployment-content .right .back {
+   display: none;
+}
+
+.deployment .deployment-content .right .per1, .per2, .per3, .per4 {
+   display: none;
+}
+
+
+
+/*Styles for Careers Section*/
+.careers{
+	max-width: auto;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	border-left: 10px solid gray;
+	border-right: 3px solid lightgray;
+	border-radius: 8px;
+	margin-bottom: 3rem;
+	
+	
+}
+
+
+.careers .careers-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+    font-size: 16px;
+
+}
+
+
+.careers .title h2{
+    text-align: center;
+}
+
+.careers .careers-content .left{
+	display: flex;
+	position: relative;
+	border: solid lightgray;
+	background: white;
+	background: url("../images/background.jpg") no-repeat center;
+	background-attachment: fixed;
+	height: 400px;
+	width: 48%;
+	border-radius: 10px;
+	box-shadow:-20px 20px  10px gray;
+	justify-content: space-between;
+	padding-left: 20px;
+	flex-wrap: wrap;
+
+}
+
+.careers .careers-content .left span{
+	font-size:40px;
+	font-style: italic;
+	color: teal;
+}
+.careers .careers-content .left p{
+	position: absolute;
+	margin-right: 50px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: black;
+	padding-left: 30px;
+	width: 50%;
+	
+	
+}
+.careers .careers-content .left .career1{
+	position: absolute;
+	height:300px;
+	width:100%;
+	align-items: center;
+	margin-top: 70px;
+	padding-right: 30px;
+	top: 20px;
+	left: 400px;
+	
+	transition: transform 900ms;
+	
+}
+.careers .careers-content .left .career1:hover img{
+	width: 40% ;
+	height: 180px;
+}
+
+
+.careers .careers-content .right{
+	display: flex;
+	position: relative;
+	border: solid lightgray;
+	background: white;
+	background: url("../images/background.jpg") no-repeat center;
+	background-attachment: fixed;
+	height: 400px;
+	width: 48%;
+	border-radius: 10px;
+	box-shadow:-20px 20px  10px gray;
+	justify-content: space-between;
+	padding-left: 5px;
+	flex-wrap: wrap;
+
+}
+.more{
+	padding-top: 30px;
+	box-shadow: -2px 20px 20px, gray;
+	padding-left: 25px;
+}
+.careers .careers-content .right p{
+	font-size: 12px;
+	padding: 1.2rem 3rem;
+	color: black;
+	font-weight: 600;
+	padding-bottom: 5px;
+	padding-top: 1em;
+}
+.careers .careers-content .right p span{
+   color: red;
+   
+}
+
+
+
+ .tableBox {
+    padding: 5px 20px;
+    overflow-x: auto;
+	width: 100%;
+	
+}
+
+ .tableBox table {
+
+    max-width: 100%;
+    border-collapse: collapse;
+	font-family: arial;
+	
+	
+	
+}
+.w3-responsive{
+	overflow: hidden;
+	align-content: center;
+	align-items: center;
+	padding-left: 20px;
+}
+
+ .tableBox table td {
+    padding: 5px 0;
+    min-width: 180px;
+    border: solid 1px black;
+    font-size: 15px;
+
+}
+
+ .tableBox table th {
+    text-align: center;
+    background: linear-gradient(245.59deg, #f1dfad 0%, #f1e647 28.53%, #f1aa0f 75.52%);
+    
+}
+
+ .table table td {
+    padding: 5px 6px;
+    text-align: center;
+    
+}
+ .table table tr td span{
+    color: blue;
+}
+
+
+
+
+/*Styles for Contact Section*/
+
+.contact {
+	display: flex;
+	background: url("../images/banner-5.jpg") repeat center;
+	background-size: cover;
+	background-attachment: scroll;
+	font-family: 'Montserrat', sans-serif;
+	border: dotted;
+
+}
+
+.contact .title h2{ 
+   text-align: center;
+}
+
+/*.contact .title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	padding: 20px;
+	text-shadow: -10px 10px 10px black;
+
+}*/
+
+.contact .contact-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.contact .contact-content .column {
+   width: calc(50% - 30px);
+}
+.contact .contact-content .column .text{
+	color: red;
+    font-size: 20px;
+	font-weight: 600;
+	margin: 10px 0;
+
+}
+.contact .contact-content .left p{
+	font-size: 18px;
+	text-align: justify;
+}
+.contact .contact-content .row{
+	display: flex;
+	height: 65px;
+	align-items: center;
+	justify-content: left;
+}
+.contact .contact-content .head{
+	color: red;
+	font-weight: 600;
+	padding: 5px 0;
+	
+
+}
+.contact .contact-content .subhead{
+	font-weight: 600;
+	justify-content: left;
+}
+
+.contact .contact-content .left img{
+	height: 20px;
+	width: 20px;
+
+}
+
+
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field ,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom:5px ;
+}
+
+.contact .right form .textarea {
+	height: 100px;
+	width: 100%;
+}
+.contact .right form .name{
+   margin-right: 10px;
+}
+.contact .right form .email{
+   margin-left: 10px;
+}
+.contact .right form .field input, 
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+}
+.contact .right form .field input:focus, 
+.contact .right form .textarea textarea:focus{
+   border-color: red;
+}
+.contact .right form .textarea textarea{
+	padding-top: 10px;
+	resize: none;
+}
+.contact .right form .button button{
+	height: 50px;
+	width: 150px;
+	background: red;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 6px;
+	border-color: red;
+	cursor: pointer;
+
+}
+.contact .right form .button button:hover{
+   background: blue;
+   color: white;
+   border-color: blue;
+
+}
+
+/*Styles for Footer Section*/
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 30px 25px;
+}
+footer span a{
+	color: red;
+}
+footer span a:hover{
+   text-decoration: underline;
+}
+
+
+/*Styles for Responsive Media Query*/
+
+@media (max-width: 1920px){
+	.home .max-width{
+		margin-left: 0px;
+	}
+	.menu-button{
+		display: none;
+		z-index: 999;
+	}
+	.Trainings .box .button1{
+		left: 160px;
+	}
+	 
+	.careers .careers-content  .left  .career1{
+		height: 20em;
+		width: 100%px;
+		margin-top: 20px;
+		padding-left: 40px;
+		left: 500px;
+		top: 100px;
+	}
+	 .careers-content  .left  .career1 img{
+	    width: 200px;
+	}
+}
+
+@media (max-width: 1804px){
+	.careers .careers-content  .left  .career1{
+		height: 20em;
+		width: 100%px;
+		margin-top: 20px;
+		padding-right: 30px;
+		left: 350px;
+	}
+	 .careers-content  .left  .career1 img{
+	    width: 160px;
+	}
+}
+@media (max-width: 1104px){
+	.navbar {
+	     padding: 5px 60px;
+	}
+	.about .about-content{
+		height: 600px;
+		width: 600px;
+	}
+	.Trainings{
+		display: block;
+	}
+	.Trainings .box .button1{
+		left: 135px;
+	}
+	.Trainings .title{
+		width: auto;
+		
+	}
+	.careers .careers-content  .right  p{
+		
+        font-size: 15px; 
+		 
+	}
+	 
+	.careers .careers-content  .left  p{
+		
+        font-size: 15px; 
+		 
+	}
+	.careers .careers-content  .left  .career1{
+		height: 20em;
+		width: 100%;
+		margin-top: 20px;
+		left: 250px;
+		top: 100px;
+	}
+	.careers-content  .left  .career1 img{
+		width: 150px;
+		height: 200px;
+		
+	}
+}
+	
+
+	
+
+@media (max-width: 991px){
+	.max-width{
+		padding: 0px 50px;
+	}
+	.Trainings .box .button1{
+		left: 100px;
+	}
+	.Trainings .title{
+		width: auto;
+		
+	}
+	 
+	.careers .careers-content  .left  .career1{
+		height: 20em;
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	.careers .max-width{
+        max-width: 800px;
+	 }
+	.careers .careers-content .left{
+        display: block;
+    	justify-content: center;
+    	margin: 10px 5px;
+    	width: 100%;
+		padding: 10px 1em;
+		height: 30em;
+    }
+	.careers .careers-content .right {
+    	margin: 10px 5px;
+    	justify-content: center;
+    	font-size: 15px;
+		height: 40rem;
+		width: auto;
+		padding-left: auto;
+    }
+   
+  	.careers .careers-content  .left  .career1{
+		height: 20em;
+		width: 7em;
+		margin-top: 20px;
+		width: 100%;
+		top: 200px;
+		
+	}
+	.careers-content  .left  .career1 img{
+		width: 140px;
+		height: 150px;
+		
+	}
+}
+@media (max-width: 947px){
+	.menu-button{
+		display: block;
+		z-index: 999;
+		margin-right: 1%;
+	}
+	.navbar .menu {
+      
+		position: fixed;
+		width: 100%;
+		background: black;
+		opacity: 80%;
+		left: -100%;
+		right: 0px;
+		top: 0px;
+		text-align: center;
+		padding-top: 5px ;
+		transition: all 0.3s ease ;
+	}
+	 .navbar .menu.active {
+        left: 0%;
+	 }
+    .navbar .menu li{
+    	display: block;
+    }
+    .navbar .menu li a{
+    	display: inline-block;
+    	margin: 20px;
+    	font-size: 20px;
+    	color: white;
+
+    }
+    .home .home-content {
+		
+		margin-left: -22px;
+	}
+    .home .home-content .Text2{
+    	font-size: 22px;
+	}
+	.home .home-content .Text1{
+    	font-size: 18px;
+	}
+	.home .home-content .Text3{
+    	font-size: 18px;
+    }
+    .home .home-content a{
+    	font-size: 18px;
+    	padding: 10px 20px;
+    }
+	.home .logo a{
+		font-size: 10px;
+		
+	}
+	.about{
+
+		padding-top: 2px;
+		padding-bottom: 30px;
+	}
+    .about .about-content{
+    	width: 500px;
+    	margin: 0 auto;
+		height: 150px;
+		
+	
+    }
+    .row{
+		display: block;
+        
+	}
+	.slides-about{
+
+		
+		padding: 30px 0;
+		width: 100%;
+		height: 350;
+	}
+	.slides-about img{
+		
+		width: 100%;
+		height: 300px;
+        padding: 0 20px;
+	}
+		
+    .Trainings .Trainings-content .card{
+    	width: calc(50% - 20px);
+    	margin: 10px;
+	}
+	.Trainings .box .button1{
+		left: 180px;
+	}
+   /*format 2 columns*/
+    .contact  .contact-content .column{
+    	width: 100%;
+    	margin: 10px;
+        
+    }
+    .deployment .deployment-content .column {
+      font-size: 16px;
+    	width: 100%;
+    	margin-top: 10px;
+    	padding-top: 10px;
+    	font-weight: 800px;
+    }
+     .deployment .deployment-content .column .text{
+     	padding-bottom: 10px;
+     }
+     .deployment .deployment-content .column p{
+		padding-bottom: 5px;
+	} 
+
+    .deployment .deployment-content .column  a{
+     	
+     	padding-bottom: 10px;
+     	font-size: 18px;
+     }
+
+	 .deployment .deployment-content .column .bar{
+		 padding-top: 10px;
+	 }
+     .Trainings-content{
+		display: block;
+
+	}
+     .careers .max-width{
+        max-width: 4500px;
+	 }
+	 .careers .careers-content{
+		width: 100%;
+		display: block;
+	 }
+
+    .careers .careers-content .column {
+     width: 100%;
+     margin-top: 10px;
+   } 
+  
+   .careers .careers-content .left {
+	margin: 5px;
+	justify-content: center;
+	font-size: 15px;
+	height: 30em;
+	padding-right: 10px;
+	
+}
+    .careers .careers-content .right{
+       
+    	justify-content: center;
+    	margin: 10px 0 auto;
+    	width: 100%;
+		padding: 10px 1em;
+		height: 32em;
+    }
+    
+  	.careers .careers-content  .left  .career1{
+		height: 20em;
+		width: 100%;
+		margin-top: 20px;
+		left: 170px;
+	}
+
+	.careers .careers-content  .left  .career1 img{
+        padding-left: 0px;
+	}
+
+    .careers .careers-content  .left  p{
+		
+        font-size: 1rem; 
+		 
+    }
+
+}
+@media (max-width: 690px){
+       .max-width {
+       		padding: 15px 23px;
+	   }
+	   
+  
+	.about .about-content{
+    	width: 330px;
+    	margin: 0 auto;
+		height: 150px;
+		
+	
+	}
+
+	.about-info {
+	
+        width: auto;
+	   
+	}
+	.slides-about img{
+		
+		width: 100%;
+		height: 300px;
+		
+	}
+	
+	.Trainings-content{
+		display: block;
+
+	}
+
+	
+       .Trainings .Trainings-content .card{
+           width: 100%;
+       }
+       .contact .right form .fields{
+		   flex-direction: column;
+
+	   }
+       .contact .right form .name,
+       .contact .right form .email{
+     	   margin: 0;
+       }
+
+	   .careers .careers-content .left {
+    	max-width: 400px;
+    	justify-content: center;
+		font-size: 15px;
+		margin-left: 5px ;
+      
+	}
+	
+	   .careers .careers-content .left  p{
+        font-size: 15px; 
+		 
+	   }
+	   .careers .careers-content .right{
+        height: 35rem;
+		 
+       }
+
+}
+@media (max-width: 500px){
+
+	.slides-about img{
+	  width: 100%;
+	}
+	.about-info {
+	
+        width: auto;
+	   
+	}
+    
+	.contact .right form .fields{
+		flex-direction: column;
+
+	}
+     .contact .right form .name,
+     .contact .right form .email{
+     	margin: 0;
+   }
+
+.w3-theme-l5 {color:#000 !important; background-color:#f6f5f9 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e1ddea !important}
+.w3-theme-l3 {color:#000 !important; background-color:#c3bcd6 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#a59ac1 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#8879ad !important}
+.w3-theme-d1 {color:#fff !important; background-color:#615286 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#564977 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#4b4068 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#403759 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#362e4a !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f6f5f9 !important}
+.w3-theme-dark {color:#fff !important; background-color:#362e4a !important}
+.w3-theme-action {color:#fff !important; background-color:#362e4a !important}
+
+.w3-theme {color:#fff !important; background-color:#6b5b95 !important}
+.w3-text-theme {color:#6b5b95 !important}
+.w3-border-theme {border-color:#6b5b95 !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#6b5b95 !important}
+.w3-hover-text-theme:hover {color:#6b5b95 !important}
+.w3-hover-border-theme:hover {border-color:#6b5b95 !important}
