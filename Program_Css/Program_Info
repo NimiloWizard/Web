@@ -1,0 +1,11 @@
+
+
+
+.program_section .program_image{
+	 width: 100%;
+}
+
+.choose p{
+	text-align: center;
+	text-decoration: underline;
+}
